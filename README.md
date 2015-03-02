@@ -9,6 +9,18 @@ If you want to run this on your own machine, there are a few things you need to 
 | Bower | Bower is used to install our client-side dependencies like jQuery and D3.js. Once you have Bower installed, make sure you are in the root directory and run: <br> ``` $ bower install ``` | http://bower.io/ |
 | Ruby | We are using Ruby solely to take advantage of the Sass CSS-preprocessor which will be very useful for making complex visuals. Once you install Ruby, install the Compass css framework (http://compass-style.org/): <br>``` $ gem install compass ``` | https://www.ruby-lang.org/en/ |
 
+Is everything installed? To check, run:
+```
+ruby -v && echo 'node: ' && node -v && echo 'bower: ' && bower -v
+```
+Did it return something similar to below?
+```
+ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-linux]
+node:
+v0.10.35
+bower:
+1.3.12
+```
 Great, almost there! Now make sure you are in the 'diversityDesert' directory and run:
 
 ```
