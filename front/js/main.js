@@ -17,11 +17,11 @@ var people = [
     video: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     clip: 'some sound'
   }
-]
+];
 var render = function(people){
   people.forEach(function(x){
-    $(".parallax").append('<div class="layer front">\n' + x.title + '</div>')
+    $(".parallax").append('<div class="layer top">\n' + x.title + '</div>')
   })
-}
+};
 
-render(people)
+render(people);

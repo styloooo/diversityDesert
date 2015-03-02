@@ -9,6 +9,7 @@
   bottom: 0;
 }
 
+// This is the container element for parallax sections
 .parallax {
   height: 100vh;
   overflow-x: hidden;
@@ -17,11 +18,15 @@
   perspective: 1px;
 }
 
-.front {
+.top {
   @include parallaxLayers(0);
 }
 
 .middle {
+  @include parallaxLayers(1);
+}
+
+.bottom {
   @include parallaxLayers(2);
 }
 
