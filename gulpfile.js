@@ -11,7 +11,7 @@ var minifyCSS = require('gulp-minify-css');
 var bower = require('main-bower-files');
 
 var paths = {
-    scripts: ['front/js/**/*.js', '!front/js/vendor/*.js'],
+    scripts: 'front/js/**/*.js',
     css: 'front/css/**/*.css',
     html: 'front/*.html'
 };
