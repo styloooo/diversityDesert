@@ -1,0 +1,26 @@
+{
+  "name": "diversityDesert",
+  "version": "0.0.1",
+  "authors": [
+    "Stretch Ledford",
+    "Chelsea Choi",
+    "Christine La",
+    "Tyler Davis",
+    "Teryn Payne",
+    "Eli Murray"
+  ],
+  "description": "Project for JOUR 460",
+  "main": "app.js",
+  "license": "Restrictive, all rights reserved",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
